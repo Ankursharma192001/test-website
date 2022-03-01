@@ -1,0 +1,59 @@
+/* Default styling*/
+
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header h1 {
+  font-weight: 400;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 3rem; /* by doing this i have set top and bottom margin zero and left and right margin as a value*/
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  list-style: none;
+  font-size: 1.5rem;
+}
+nav {
+  position: relative; /* this will allow me to move it */
+  width: 20rem; /* if we want to change position then relative  is required*/
+  top: 1rem;
+  right: 2rem;
+}
+.showcase_img {
+  width: 95vw;
+  margin: 1rem;
+}
+article {
+  display: flex;
+  font-size: medium;
+  margin: 1.5rem;
+  font-size: 1.2rem;
+}
+.container {
+  text-align: center;
+  margin-right: 2rem;
+  padding: 1rem;
+}
+footer {
+  background-color: black;
+  color: white;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  font-size: 2rem;
+  color: red;
+}
